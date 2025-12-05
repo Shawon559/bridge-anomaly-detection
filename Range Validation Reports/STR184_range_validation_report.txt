@@ -1,0 +1,341 @@
+================================================================================
+📊 RANGE VALIDATION REPORT: STR184
+Generated: 2025-12-05 09:14:59
+================================================================================
+
+✓ Loaded 829,160 rows
+
+================================================================================
+📋 STRUCTURE INFORMATION
+================================================================================
+   Total rows: 829,160
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   Unique sensors: 9
+
+================================================================================
+📏 OFFICIAL NORMAL VALUE RANGES
+================================================================================
+
+   Accelerometer (AC):
+      p2p, rms: -1.0 to +1.0 g
+
+   Displacement Meter (DI):
+      value: 0 to 500 mm
+
+   Tiltmeter (TI):
+      value: -5° to +5°
+
+   Thermometer (TP):
+      temperature: -40°C to +125°C
+
+================================================================================
+🔍 PER-SENSOR RANGE VALIDATION
+================================================================================
+
+================================================================================
+📡 SENSOR: DI652 (displacement)
+================================================================================
+
+   📊 Total readings: 77,719
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: 0.0 to 500.0 mm):
+         Total values: 77,719
+         ✅ In range: 14,201 (18.27%)
+         ❌ Out of range: 63,518 (81.73%)
+         Actual range: -469.5000 to 469.5200 mm
+         ⬇️  Below minimum: 63,518
+            Lowest value: -469.5000 mm
+            Deviation: 469.5000 mm below limit
+
+         📅 Violation Timeline:
+            First violation: 2023-09-01 12:40:00
+            Last violation: 2025-09-02 08:59:59
+            Duration: 731 days
+
+         🚨 CRITICAL: Very high violation rate (81.7%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 77,719
+      Total violations: 63,518 (81.73%)
+      🚨 REQUIRES IMMEDIATE INVESTIGATION
+
+================================================================================
+📡 SENSOR: DI653 (displacement)
+================================================================================
+
+   📊 Total readings: 95,935
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: 0.0 to 500.0 mm):
+         Total values: 95,935
+         ✅ In range: 25,936 (27.03%)
+         ❌ Out of range: 69,999 (72.97%)
+         Actual range: -469.1300 to 469.1400 mm
+         ⬇️  Below minimum: 69,999
+            Lowest value: -469.1300 mm
+            Deviation: 469.1300 mm below limit
+
+         📅 Violation Timeline:
+            First violation: 2023-09-01 09:10:00
+            Last violation: 2025-09-02 08:59:59
+            Duration: 731 days
+
+         🚨 CRITICAL: Very high violation rate (73.0%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 95,935
+      Total violations: 69,999 (72.97%)
+      🚨 REQUIRES IMMEDIATE INVESTIGATION
+
+================================================================================
+📡 SENSOR: DI654 (displacement)
+================================================================================
+
+   📊 Total readings: 99,258
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: 0.0 to 500.0 mm):
+         Total values: 99,258
+         ✅ In range: 11 (0.01%)
+         ❌ Out of range: 99,247 (99.99%)
+         Actual range: -469.0500 to 469.0300 mm
+         ⬇️  Below minimum: 99,247
+            Lowest value: -469.0500 mm
+            Deviation: 469.0500 mm below limit
+
+         📅 Violation Timeline:
+            First violation: 2023-09-01 09:10:00
+            Last violation: 2025-09-02 08:59:59
+            Duration: 731 days
+
+         🚨 CRITICAL: Very high violation rate (100.0%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 99,258
+      Total violations: 99,247 (99.99%)
+      🚨 REQUIRES IMMEDIATE INVESTIGATION
+
+================================================================================
+📡 SENSOR: DI655 (displacement)
+================================================================================
+
+   📊 Total readings: 83,953
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: 0.0 to 500.0 mm):
+         Total values: 83,953
+         ✅ In range: 2,196 (2.62%)
+         ❌ Out of range: 81,757 (97.38%)
+         Actual range: -459.6700 to 459.6500 mm
+         ⬇️  Below minimum: 81,757
+            Lowest value: -459.6700 mm
+            Deviation: 459.6700 mm below limit
+
+         📅 Violation Timeline:
+            First violation: 2023-09-01 09:10:00
+            Last violation: 2025-09-02 08:59:59
+            Duration: 731 days
+
+         🚨 CRITICAL: Very high violation rate (97.4%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 83,953
+      Total violations: 81,757 (97.38%)
+      🚨 REQUIRES IMMEDIATE INVESTIGATION
+
+================================================================================
+📡 SENSOR: TI656 (tilt)
+================================================================================
+
+   📊 Total readings: 98,313
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: -5.0 to 5.0 degree):
+         Total values: 98,313
+         ✅ In range: 98,240 (99.93%)
+         ❌ Out of range: 73 (0.07%)
+         Actual range: -25.9200 to 25.9200 degree
+         ⬇️  Below minimum: 9
+            Lowest value: -25.9200 degree
+            Deviation: 20.9200 degree below limit
+         ⬆️  Above maximum: 64
+            Highest value: 25.9200 degree
+            Deviation: 20.9200 degree above limit
+
+         📅 Violation Timeline:
+            First violation: 2023-11-16 15:00:00
+            Last violation: 2023-11-17 15:40:00
+            Duration: 1 days
+
+         ℹ️  LOW: Minor violations (0.1%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 98,313
+      Total violations: 73 (0.07%)
+      ℹ️  Minor issues detected
+
+================================================================================
+📡 SENSOR: TI657 (tilt)
+================================================================================
+
+   📊 Total readings: 98,037
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: -5.0 to 5.0 degree):
+         Total values: 98,037
+         ✅ In range: 97,979 (99.94%)
+         ❌ Out of range: 58 (0.06%)
+         Actual range: -26.1400 to 26.1100 degree
+         ⬇️  Below minimum: 46
+            Lowest value: -26.1400 degree
+            Deviation: 21.1400 degree below limit
+         ⬆️  Above maximum: 12
+            Highest value: 26.1100 degree
+            Deviation: 21.1100 degree above limit
+
+         📅 Violation Timeline:
+            First violation: 2023-11-06 19:50:00
+            Last violation: 2023-11-07 15:50:00
+            Duration: 0 days
+
+         ℹ️  LOW: Minor violations (0.1%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 98,037
+      Total violations: 58 (0.06%)
+      ℹ️  Minor issues detected
+
+================================================================================
+📡 SENSOR: TI658 (tilt)
+================================================================================
+
+   📊 Total readings: 99,314
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: -5.0 to 5.0 degree):
+         Total values: 99,314
+         ✅ In range: 96,747 (97.42%)
+         ❌ Out of range: 2,567 (2.58%)
+         Actual range: -24.5000 to 24.4100 degree
+         ⬇️  Below minimum: 1,912
+            Lowest value: -24.5000 degree
+            Deviation: 19.5000 degree below limit
+         ⬆️  Above maximum: 655
+            Highest value: 24.4100 degree
+            Deviation: 19.4100 degree above limit
+
+         📅 Violation Timeline:
+            First violation: 2023-09-06 16:40:00
+            Last violation: 2025-02-07 16:10:00
+            Duration: 519 days
+
+         ⚠️  MODERATE: Noticeable violations (2.6%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 99,314
+      Total violations: 2,567 (2.58%)
+      ⚠️  REQUIRES REVIEW
+
+================================================================================
+📡 SENSOR: TI659 (tilt)
+================================================================================
+
+   📊 Total readings: 91,166
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      VALUE (Official range: -5.0 to 5.0 degree):
+         Total values: 91,166
+         ✅ In range: 91,055 (99.88%)
+         ❌ Out of range: 111 (0.12%)
+         Actual range: -24.8600 to 24.8600 degree
+         ⬇️  Below minimum: 2
+            Lowest value: -24.8600 degree
+            Deviation: 19.8600 degree below limit
+         ⬆️  Above maximum: 109
+            Highest value: 24.8600 degree
+            Deviation: 19.8600 degree above limit
+
+         📅 Violation Timeline:
+            First violation: 2023-12-17 03:50:00
+            Last violation: 2023-12-18 06:40:00
+            Duration: 1 days
+
+         ℹ️  LOW: Minor violations (0.1%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 91,166
+      Total violations: 111 (0.12%)
+      ℹ️  Minor issues detected
+
+================================================================================
+📡 SENSOR: TP380 (temperature_probe)
+================================================================================
+
+   📊 Total readings: 85,465
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      TEMPERATURE (Official range: -40.0 to 125.0 °C):
+         Total values: 85,465
+         ✅ In range: 85,465 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: -40.0000 to 36.5700 °C
+
+         ✅ EXCELLENT: All values within range!
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 85,465
+      Total violations: 0 (0.00%)
+      ✅ ALL MEASUREMENTS WITHIN OFFICIAL RANGES
+
+================================================================================
+📊 VALIDATION SUMMARY
+================================================================================
+
+   Structure: STR184
+   Total sensors: 9
+   Total measurements checked: 829,160
+   ✅ In range: 511,830 (61.73%)
+   ❌ Out of range: 317,330 (38.27%)
+
+   🚨 CRITICAL SENSORS (4):
+      DI652: 81.7% violations
+      DI653: 73.0% violations
+      DI654: 100.0% violations
+      DI655: 97.4% violations
+
+   ================================================================================
+   ⚠️  ATTENTION REQUIRED
+   → 4 sensors need investigation
+   → Consider filtering or flagging out-of-range values
+   ================================================================================
+
+================================================================================

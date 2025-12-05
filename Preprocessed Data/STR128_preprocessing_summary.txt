@@ -1,0 +1,100 @@
+================================================================================
+STR128 PREPROCESSING SUMMARY
+================================================================================
+Generated: 2025-12-05 18:54:28
+
+INPUT DATA:
+  File: STR128_merged.xlsx
+  Original rows: 308,421
+  Date range: 2023-09-01 09:10:00 to 2024-07-10 06:10:00
+  Sensors: 7
+
+FEATURE ENGINEERING:
+  Combined displacement: DI549 + DI550
+  Dynamic tilt (avg): (TI551 + TI552 + TI553) / 3
+  Stable tilt: TI554
+  Total features created: 12
+
+OUTPUT FILES:
+  Full preprocessed: STR128_preprocessed.xlsx
+    - Shape: (44428, 21)
+    - All sensors and derived features
+  Model-ready: STR128_model_ready.xlsx
+    - Shape: (42780, 13)
+    - Selected features only, no missing values
+
+BASELINE STATISTICS (for anomaly thresholds):
+--------------------------------------------------------------------------------
+
+displacement_combined:
+  Mean: 11.1752
+  Std Dev: 5.2192
+  Min: -3.9700
+  Max: 21.8200
+  Suggested threshold (mean ¡¾ 2*std): [0.7369, 21.6136]
+
+tilt_dynamic_avg:
+  Mean: -17.8843
+  Std Dev: 1.5372
+  Min: -18.5000
+  Max: -0.7133
+  Suggested threshold (mean ¡¾ 2*std): [-20.9586, -14.8099]
+
+tilt_stable:
+  Mean: -0.8406
+  Std Dev: 1.7419
+  Min: -26.4900
+  Max: 26.5000
+  Suggested threshold (mean ¡¾ 2*std): [-4.3245, 2.6432]
+
+displacement_rate:
+  Mean: -0.0001
+  Std Dev: 0.2939
+  Min: -2.4500
+  Max: 6.9500
+  Suggested threshold (mean ¡¾ 2*std): [-0.5879, 0.5876]
+
+tilt_dynamic_rate:
+  Mean: 0.0000
+  Std Dev: 0.0051
+  Min: -0.1900
+  Max: 0.0333
+  Suggested threshold (mean ¡¾ 2*std): [-0.0101, 0.0101]
+
+tilt_stable_rate:
+  Mean: -0.0016
+  Std Dev: 0.5176
+  Min: -41.7300
+  Max: 40.0400
+  Suggested threshold (mean ¡¾ 2*std): [-1.0368, 1.0335]
+
+tilt_dynamic_std:
+  Mean: 0.0927
+  Std Dev: 0.1408
+  Min: 0.0436
+  Max: 2.2062
+  Suggested threshold (mean ¡¾ 2*std): [-0.1889, 0.3743]
+
+displacement_sync_error:
+  Mean: 1.6433
+  Std Dev: 1.8248
+  Min: 0.0000
+  Max: 13.2981
+  Suggested threshold (mean ¡¾ 2*std): [-2.0063, 5.2929]
+
+is_weekend:
+  Mean: 0.2838
+  Std Dev: 0.4508
+  Min: 0.0000
+  Max: 1.0000
+  Suggested threshold (mean ¡¾ 2*std): [-0.6179, 1.1854]
+
+================================================================================
+READY FOR ANOMALY DETECTION MODEL
+================================================================================
+
+Next steps:
+1. Load STR128_model_ready.xlsx
+2. Split into train/test (80/20 or by time)
+3. Train anomaly detection model (Isolation Forest, Autoencoder, etc.)
+4. Use baseline statistics for threshold tuning

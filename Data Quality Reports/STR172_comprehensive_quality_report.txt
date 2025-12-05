@@ -1,0 +1,457 @@
+================================================================================
+📊 COMPREHENSIVE DATA QUALITY REPORT: STR172
+Generated: 2025-12-03 23:09:52
+================================================================================
+
+✓ Loaded 111,120 rows
+
+================================================================================
+📋 OVERALL INFORMATION
+================================================================================
+   Total rows: 111,120
+   Date range: 2023-09-01 09:10:00 to 2025-02-17 13:30:00
+   Duration: 535 days
+   Unique sensors: 3
+   Sensor types: accelerometer, temperature_probe
+
+================================================================================
+🔍 PER-SENSOR COMPREHENSIVE ANALYSIS
+================================================================================
+
+================================================================================
+📡 SENSOR: AC475 (accelerometer)
+================================================================================
+
+   📊 BASIC INFORMATION:
+      Total readings: 44,123
+      Date range: 2023-09-01 09:10:00 to 2025-02-17 13:30:00
+      Duration: 535 days
+
+   ⏱️  SAMPLING RATE & DATA COMPLETENESS:
+      Median sampling interval: 0 days 00:10:00
+      Expected samples: 77,066
+      Actual samples: 44,123
+      Data completeness: 57.3%
+      ⚠️  Low data completeness: 57.3%
+
+   📅 DETAILED TEMPORAL GAP ANALYSIS:
+      Total gaps detected: 29
+      Gap threshold: 0 days 00:20:00
+      Largest gap: 180 days 19:50:00
+      Total time offline: 188 days 07:20:00
+      Offline percentage: 35.19%
+
+      🔍 DETAILED OFFLINE PERIODS:
+      Showing top 10 longest offline periods:
+         1. Start: 2024-08-20 17:40:00
+            End:   2025-02-17 13:30:00
+            Duration: 180 days 19:50:00
+
+         2. Start: 2023-12-18 18:40:00
+            End:   2023-12-20 13:00:00
+            Duration: 1 days 18:20:00
+
+         3. Start: 2023-12-22 22:10:00
+            End:   2023-12-24 15:30:00
+            Duration: 1 days 17:20:00
+
+         4. Start: 2024-08-12 18:00:00
+            End:   2024-08-14 00:30:00
+            Duration: 1 days 06:30:00
+
+         5. Start: 2024-08-09 19:30:00
+            End:   2024-08-10 16:10:00
+            Duration: 0 days 20:40:00
+
+         6. Start: 2024-08-09 03:20:00
+            End:   2024-08-09 11:20:00
+            Duration: 0 days 08:00:00
+
+         7. Start: 2024-05-29 03:50:00
+            End:   2024-05-29 09:30:00
+            Duration: 0 days 05:40:00
+
+         8. Start: 2023-12-22 05:30:00
+            End:   2023-12-22 10:10:00
+            Duration: 0 days 04:40:00
+
+         9. Start: 2023-11-24 06:00:00
+            End:   2023-11-24 10:20:00
+            Duration: 0 days 04:20:00
+
+         10. Start: 2023-12-22 11:20:00
+            End:   2023-12-22 14:40:00
+            Duration: 0 days 03:20:00
+
+      ⚠️  High offline percentage: 35.19%
+
+   📈 DATA QUALITY TIMELINE:
+      Monthly data point distribution:
+         First 6 months:
+            2023-09: 3,784 readings
+            2023-10: 3,932 readings
+            2023-11: 3,810 readings
+            2023-12: 3,424 readings
+            2024-01: 3,897 readings
+            2024-02: 3,714 readings
+         ...
+         Last 6 months:
+            2024-04: 3,791 readings
+            2024-05: 3,897 readings
+            2024-06: 3,815 readings
+            2024-07: 3,907 readings
+            2024-08: 2,199 readings
+            2025-02: 1 readings
+
+   🏥 SENSOR HEALTH:
+      N/A - No battery monitoring
+
+      Data freshness:
+         Last reading: 2025-02-17 13:30:00
+         Days since last reading: 289
+      ⚠️  No recent data - sensor may be offline
+
+   🌡️  ENVIRONMENTAL CONDITIONS:
+      Temperature:
+         Mean: 31.95
+         Std Dev: 9.29
+         Range: [10.99, 50.81]
+         Missing: 0 (0.0%)
+      Humidity:
+         Mean: 29.63
+         Std Dev: 6.64
+         Range: [6.98, 44.26]
+         Missing: 0 (0.0%)
+      → Environmental data available for contextual analysis
+
+   🔧 BRIDGE MEASUREMENTS (CRITICAL FOR ANOMALY DETECTION):
+
+      P2P:
+         Count: 44,123
+         Missing: 0 (0.0%)
+         Mean: 0.0295
+         Std Dev: 0.0277
+         Range: [0.0011, 0.9785]
+         Outliers (3×IQR): 35 (0.08%)
+         Outlier bounds: [-0.1071, 0.1604]
+         ✓ Measurements within normal range
+         ⚠️  Sudden jumps detected: 72 instances
+            Max jump: 0.6774
+
+      RMS:
+         Count: 44,123
+         Missing: 0 (0.0%)
+         Mean: 0.0009
+         Std Dev: 0.0008
+         Range: [0.0001, 0.0811]
+         Outliers (3×IQR): 26 (0.06%)
+         Outlier bounds: [-0.0016, 0.0034]
+         ✓ Measurements within normal range
+         ⚠️  Sudden jumps detected: 15 instances
+            Max jump: 0.0732
+
+   ================================================================================
+   📊 OVERALL SENSOR STATUS:
+   ================================================================================
+      ⚠️  2 ISSUE(S) DETECTED:
+         1. Low data completeness: 57.3%
+         2. High offline percentage: 35.19%
+
+      → Review issues before using for anomaly detection
+
+================================================================================
+📡 SENSOR: AC476 (accelerometer)
+================================================================================
+
+   📊 BASIC INFORMATION:
+      Total readings: 44,087
+      Date range: 2023-09-01 09:10:00 to 2024-08-20 17:40:00
+      Duration: 354 days
+
+   ⏱️  SAMPLING RATE & DATA COMPLETENESS:
+      Median sampling interval: 0 days 00:10:00
+      Expected samples: 51,027
+      Actual samples: 44,087
+      Data completeness: 86.4%
+      ⚠️  Low data completeness: 86.4%
+
+   📅 DETAILED TEMPORAL GAP ANALYSIS:
+      Total gaps detected: 31
+      Gap threshold: 0 days 00:20:00
+      Largest gap: 1 days 18:20:00
+      Total time offline: 7 days 12:20:00
+      Offline percentage: 2.12%
+
+      🔍 DETAILED OFFLINE PERIODS:
+      Showing top 10 longest offline periods:
+         1. Start: 2023-12-18 18:40:00
+            End:   2023-12-20 13:00:00
+            Duration: 1 days 18:20:00
+
+         2. Start: 2023-12-22 22:10:00
+            End:   2023-12-24 15:30:00
+            Duration: 1 days 17:20:00
+
+         3. Start: 2024-08-12 18:10:00
+            End:   2024-08-14 00:30:00
+            Duration: 1 days 06:20:00
+
+         4. Start: 2024-08-09 19:30:00
+            End:   2024-08-10 16:10:00
+            Duration: 0 days 20:40:00
+
+         5. Start: 2024-08-09 03:20:00
+            End:   2024-08-09 11:10:00
+            Duration: 0 days 07:50:00
+
+         6. Start: 2024-05-29 04:00:00
+            End:   2024-05-29 09:30:00
+            Duration: 0 days 05:30:00
+
+         7. Start: 2023-12-22 05:30:00
+            End:   2023-12-22 10:20:00
+            Duration: 0 days 04:50:00
+
+         8. Start: 2023-11-24 06:10:00
+            End:   2023-11-24 10:20:00
+            Duration: 0 days 04:10:00
+
+         9. Start: 2023-12-22 11:20:00
+            End:   2023-12-22 14:30:00
+            Duration: 0 days 03:10:00
+
+         10. Start: 2024-08-09 12:20:00
+            End:   2024-08-09 14:50:00
+            Duration: 0 days 02:30:00
+
+
+   📈 DATA QUALITY TIMELINE:
+      Monthly data point distribution:
+         2023-09: 3,762 readings
+         2023-10: 3,927 readings
+         2023-11: 3,773 readings
+         2023-12: 3,461 readings
+         2024-01: 3,910 readings
+         2024-02: 3,722 readings
+         2024-03: 3,973 readings
+         2024-04: 3,778 readings
+         2024-05: 3,884 readings
+         2024-06: 3,794 readings
+         2024-07: 3,911 readings
+         2024-08: 2,192 readings
+
+   🏥 SENSOR HEALTH:
+      N/A - No battery monitoring
+
+      Data freshness:
+         Last reading: 2024-08-20 17:40:00
+         Days since last reading: 470
+      ⚠️  No recent data - sensor may be offline
+
+   🌡️  ENVIRONMENTAL CONDITIONS:
+      Temperature:
+         Mean: 31.89
+         Std Dev: 9.45
+         Range: [10.01, 50.24]
+         Missing: 0 (0.0%)
+      Humidity:
+         Mean: 29.19
+         Std Dev: 6.24
+         Range: [9.11, 43.66]
+         Missing: 0 (0.0%)
+      → Environmental data available for contextual analysis
+
+   🔧 BRIDGE MEASUREMENTS (CRITICAL FOR ANOMALY DETECTION):
+
+      P2P:
+         Count: 44,087
+         Missing: 0 (0.0%)
+         Mean: 0.0297
+         Std Dev: 0.0274
+         Range: [0.0019, 0.9361]
+         Outliers (3×IQR): 33 (0.07%)
+         Outlier bounds: [-0.1017, 0.1560]
+         ✓ Measurements within normal range
+         ⚠️  Sudden jumps detected: 48 instances
+            Max jump: 0.9056
+
+      RMS:
+         Count: 44,087
+         Missing: 0 (0.0%)
+         Mean: 0.0010
+         Std Dev: 0.0009
+         Range: [0.0002, 0.0988]
+         Outliers (3×IQR): 22 (0.05%)
+         Outlier bounds: [-0.0015, 0.0035]
+         ✓ Measurements within normal range
+         ⚠️  Sudden jumps detected: 18 instances
+            Max jump: 0.0965
+
+   ================================================================================
+   📊 OVERALL SENSOR STATUS:
+   ================================================================================
+      ⚠️  1 ISSUE(S) DETECTED:
+         1. Low data completeness: 86.4%
+
+      → Review issues before using for anomaly detection
+
+================================================================================
+📡 SENSOR: TP368 (temperature_probe)
+================================================================================
+
+   📊 BASIC INFORMATION:
+      Total readings: 22,910
+      Date range: 2023-09-01 09:10:00 to 2024-04-07 04:00:00
+      Duration: 218 days
+
+   ⏱️  SAMPLING RATE & DATA COMPLETENESS:
+      Median sampling interval: 0 days 00:10:00
+      Expected samples: 31,505
+      Actual samples: 22,910
+      Data completeness: 72.7%
+      ⚠️  Low data completeness: 72.7%
+
+   📅 DETAILED TEMPORAL GAP ANALYSIS:
+      Total gaps detected: 7
+      Gap threshold: 0 days 00:20:00
+      Largest gap: 47 days 07:40:00
+      Total time offline: 59 days 17:40:00
+      Offline percentage: 27.30%
+
+      🔍 DETAILED OFFLINE PERIODS:
+      Showing top 7 longest offline periods:
+         1. Start: 2023-11-30 04:30:00
+            End:   2024-01-16 12:10:00
+            Duration: 47 days 07:40:00
+
+         2. Start: 2024-03-25 20:10:00
+            End:   2024-04-05 08:40:00
+            Duration: 10 days 12:30:00
+
+         3. Start: 2024-04-05 09:10:00
+            End:   2024-04-06 23:10:00
+            Duration: 1 days 14:00:00
+
+         4. Start: 2023-11-24 06:10:00
+            End:   2023-11-24 10:10:00
+            Duration: 0 days 04:00:00
+
+         5. Start: 2024-01-20 18:50:00
+            End:   2024-01-20 20:20:00
+            Duration: 0 days 01:30:00
+
+         6. Start: 2024-01-22 10:50:00
+            End:   2024-01-22 11:50:00
+            Duration: 0 days 01:00:00
+
+         7. Start: 2024-01-22 12:10:00
+            End:   2024-01-22 13:10:00
+            Duration: 0 days 01:00:00
+
+      ⚠️  High offline percentage: 27.30%
+
+   📈 DATA QUALITY TIMELINE:
+      Monthly data point distribution:
+         2023-09: 4,265 readings
+         2023-10: 4,464 readings
+         2023-11: 4,181 readings
+         2024-01: 2,212 readings
+         2024-02: 4,176 readings
+         2024-03: 3,578 readings
+         2024-04: 34 readings
+      ⚠️  Data collection degrading over time
+         First half avg: 4303 readings/month
+         Second half avg: 2500 readings/month
+
+   🏥 SENSOR HEALTH:
+      Battery status:
+         Current: 0.0%
+         Average: 98.1%
+         Minimum: 0.0%
+         Initial: 100.0%
+         Decline: 100.0%
+      🚨 CRITICAL: Low battery - sensor needs immediate maintenance!
+
+      Data freshness:
+         Last reading: 2024-04-07 04:00:00
+         Days since last reading: 605
+      ⚠️  No recent data - sensor may be offline
+
+   🌡️  ENVIRONMENTAL CONDITIONS:
+      Temperature:
+         Mean: 9.48
+         Std Dev: 15.73
+         Range: [-40.00, 106.64]
+         Missing: 0 (0.0%)
+      Humidity:
+         Mean: 78.50
+         Std Dev: 17.05
+         Range: [0.00, 100.00]
+         Missing: 0 (0.0%)
+      → Environmental data available for contextual analysis
+
+   🔧 BRIDGE MEASUREMENTS (CRITICAL FOR ANOMALY DETECTION):
+
+      VALUE:
+         Count: 22,910
+         Missing: 0 (0.0%)
+         Mean: 11.7126
+         Std Dev: 9.6617
+         Range: [-255.9100, 32.0500]
+         Outliers (3×IQR): 2 (0.01%)
+         Outlier bounds: [-42.7700, 66.4300]
+         ✓ Measurements within normal range
+         ⚠️  Sudden jumps detected: 6 instances
+            Max jump: 256.2300
+
+   ================================================================================
+   📊 OVERALL SENSOR STATUS:
+   ================================================================================
+      ⚠️  3 ISSUE(S) DETECTED:
+         1. Low data completeness: 72.7%
+         2. High offline percentage: 27.30%
+         3. Data collection degrading over time
+
+      → Review issues before using for anomaly detection
+
+================================================================================
+🔄 CROSS-SENSOR HEALTH COMPARISON
+================================================================================
+
+   ACCELEROMETER:
+      Total sensors: 2
+      Total issues: 3
+      Average issues per sensor: 1.5
+      Sensors with issues:
+         AC475: 2 issue(s), 44,123 rows
+         AC476: 1 issue(s), 44,087 rows
+
+   TEMPERATURE_PROBE:
+      Total sensors: 1
+      Total issues: 3
+      Average issues per sensor: 3.0
+      Sensors with issues:
+         TP368: 3 issue(s), 22,910 rows
+
+================================================================================
+📊 SUMMARY
+================================================================================
+
+   Structure: STR172
+   Total sensors: 3
+   Total data rows: 111,120
+   Date range: 2023-09-01 09:10:00 to 2025-02-17 13:30:00
+   Duration: 535 days
+
+   Total issues detected: 6
+   Critical bridge measurement issues: 0
+   Total offline periods: 67
+   Total offline time: 255 days 13:20:00
+
+   ================================================================================
+   ✅ GOOD DATA QUALITY
+   → Minor issues detected, proceed with caution
+   → Review individual sensor reports for details
+   ================================================================================
+
+================================================================================

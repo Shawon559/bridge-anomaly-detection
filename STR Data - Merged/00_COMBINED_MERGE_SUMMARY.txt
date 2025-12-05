@@ -1,0 +1,374 @@
+================================================================================
+COMBINED MERGE SUMMARY - ALL STRUCTURES
+Generated: 2025-12-04 09:37:19
+================================================================================
+
+================================================================================
+📊 OVERALL MERGE STATISTICS
+================================================================================
+
+   Total structures processed: 22
+   Successful merges: 21
+   Total Excel files processed: 47
+   Total sensors identified: 130
+   Total rows before merge: 10,163,369
+   Total rows after merge: 10,146,888
+   Total duplicates removed: 16,481
+   Duplicate rate: 0.16%
+
+================================================================================
+📋 PER-STRUCTURE MERGE DETAILS
+================================================================================
+
+STR122 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 4
+   Sensors found: 11
+   Sensor IDs: AC383, AC384, DI531, DI532, DI533, DI534, TI535, TI536, TI537, TI538, TP318
+   Rows before merge: 960,175
+   Rows after merge: 955,994
+   Duplicates removed: 4,181
+   Duplicate rate: 0.44%
+   Date range: 2023-09-01 09:10:00 to 2025-08-02 08:59:59
+   Duration: 700 days
+   File size: 37.19 MB
+
+STR124 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 3
+   Sensors found: 9
+   Sensor IDs: AC387, AC388, DI539, DI540, TI541, TI542, TI543, TI544, TP320
+   Rows before merge: 385,218
+   Rows after merge: 385,218
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2024-07-10 06:00:00
+   Duration: 312 days
+   File size: 15.08 MB
+
+STR126 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 2
+   Sensors found: 3
+   Sensor IDs: AC391, AC392, TP322
+   Rows before merge: 258,633
+   Rows after merge: 258,234
+   Duplicates removed: 399
+   Duplicate rate: 0.15%
+   Date range: 2023-09-01 09:10:00 to 2025-07-17 07:50:00
+   Duration: 684 days
+   File size: 10.88 MB
+
+STR128 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 7
+   Sensor IDs: DI549, DI550, TI551, TI552, TI553, TI554, TP324
+   Rows before merge: 308,421
+   Rows after merge: 308,421
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2024-07-10 06:10:00
+   Duration: 312 days
+   File size: 9.66 MB
+
+STR129 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 4
+   Sensors found: 9
+   Sensor IDs: AC393, AC394, DI555, DI556, TI557, TI558, TI559, TI560, TP325
+   Rows before merge: 876,111
+   Rows after merge: 876,111
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 34.55 MB
+
+STR130 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC395, AC396, TP326
+   Rows before merge: 243,224
+   Rows after merge: 243,224
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-07-17 09:40:00
+   Duration: 685 days
+   File size: 9.97 MB
+
+STR132 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 2
+   Sensors found: 3
+   Sensor IDs: AC397, AC398, TP327
+   Rows before merge: 234,618
+   Rows after merge: 234,618
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 9.91 MB
+
+STR171 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC473, AC474, TP367
+   Rows before merge: 187,691
+   Rows after merge: 187,691
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 7.79 MB
+
+STR172 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC475, AC476, TP368
+   Rows before merge: 111,120
+   Rows after merge: 111,120
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-02-17 13:30:00
+   Duration: 535 days
+   File size: 4.64 MB
+
+STR173 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC477, AC478, TP369
+   Rows before merge: 275,341
+   Rows after merge: 275,341
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 11.84 MB
+
+STR174 (WITH ALL SENSORS):
+   Status: ❌ Failed
+   Files merged: 0
+   Sensors found: 0
+   Rows before merge: 0
+   Rows after merge: 0
+   Duplicates removed: 0
+
+STR175 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC481, AC482, TP371
+   Rows before merge: 233,076
+   Rows after merge: 233,076
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 9.77 MB
+
+STR176 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC483, AC484, TP372
+   Rows before merge: 285,340
+   Rows after merge: 285,340
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 12.17 MB
+
+STR177 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 3
+   Sensor IDs: AC485, AC486, TP373
+   Rows before merge: 239,084
+   Rows after merge: 239,084
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 10.08 MB
+
+STR178 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 1
+   Sensors found: 7
+   Sensor IDs: DI606, DI607, TI608, TI609, TI610, TI611, TP374
+   Rows before merge: 288,933
+   Rows after merge: 288,933
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+   Duration: 357 days
+   File size: 9.09 MB
+
+STR179 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 4
+   Sensors found: 10
+   Sensor IDs: AC792, DI612, DI613, DI614, DI615, TI616, TI617, TI618, TI619, TP375
+   Rows before merge: 952,335
+   Rows after merge: 948,103
+   Duplicates removed: 4,232
+   Duplicate rate: 0.44%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 34.59 MB
+
+STR180 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 4
+   Sensors found: 9
+   Sensor IDs: DI620, DI621, DI622, DI623, TI624, TI625, TI626, TI627, TP376
+   Rows before merge: 852,800
+   Rows after merge: 852,800
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 27.01 MB
+
+STR181 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 4
+   Sensors found: 9
+   Sensor IDs: DI628, DI629, DI630, DI631, TI632, TI633, TI634, TI635, TP377
+   Rows before merge: 869,199
+   Rows after merge: 865,639
+   Duplicates removed: 3,560
+   Duplicate rate: 0.41%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 27.60 MB
+
+STR182 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 2
+   Sensors found: 9
+   Sensor IDs: DI636, DI637, DI638, DI639, TI640, TI641, TI642, TI643, TP378
+   Rows before merge: 602,924
+   Rows after merge: 602,924
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 19.01 MB
+
+STR183 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 4
+   Sensors found: 9
+   Sensor IDs: DI644, DI645, DI646, DI647, TI648, TI649, TI650, TI651, TP379
+   Rows before merge: 695,372
+   Rows after merge: 691,978
+   Duplicates removed: 3,394
+   Duplicate rate: 0.49%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 22.46 MB
+
+STR184 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 3
+   Sensors found: 9
+   Sensor IDs: DI652, DI653, DI654, DI655, TI656, TI657, TI658, TI659, TP380
+   Rows before merge: 829,160
+   Rows after merge: 829,160
+   Duplicates removed: 0
+   Duplicate rate: 0.00%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 26.20 MB
+
+STR199 (WITH ALL SENSORS):
+   Status: ✅ Success
+   Files merged: 2
+   Sensors found: 5
+   Sensor IDs: TI807, TI808, TI812, TI813, TP806
+   Rows before merge: 474,594
+   Rows after merge: 473,879
+   Duplicates removed: 715
+   Duplicate rate: 0.15%
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   File size: 13.67 MB
+
+================================================================================
+⚠️  STRUCTURES WITH MOST DUPLICATES
+================================================================================
+
+Top 10 structures by duplicate count:
+   1. STR179 (WITH ALL SENSORS): 4,232 duplicates (0.44%)
+   2. STR122 (WITH ALL SENSORS): 4,181 duplicates (0.44%)
+   3. STR181 (WITH ALL SENSORS): 3,560 duplicates (0.41%)
+   4. STR183 (WITH ALL SENSORS): 3,394 duplicates (0.49%)
+   5. STR199 (WITH ALL SENSORS): 715 duplicates (0.15%)
+   6. STR126 (WITH ALL SENSORS): 399 duplicates (0.15%)
+   7. STR124 (WITH ALL SENSORS): 0 duplicates (0.00%)
+   8. STR128 (WITH ALL SENSORS): 0 duplicates (0.00%)
+   9. STR129 (WITH ALL SENSORS): 0 duplicates (0.00%)
+   10. STR130 (WITH ALL SENSORS): 0 duplicates (0.00%)
+
+================================================================================
+📁 STRUCTURES WITH MOST FILES
+================================================================================
+
+Top 10 structures by file count:
+   1. STR122 (WITH ALL SENSORS): 4 files, 11 sensors
+   2. STR129 (WITH ALL SENSORS): 4 files, 9 sensors
+   3. STR179 (WITH ALL SENSORS): 4 files, 10 sensors
+   4. STR180 (WITH ALL SENSORS): 4 files, 9 sensors
+   5. STR181 (WITH ALL SENSORS): 4 files, 9 sensors
+   6. STR183 (WITH ALL SENSORS): 4 files, 9 sensors
+   7. STR124 (WITH ALL SENSORS): 3 files, 9 sensors
+   8. STR184 (WITH ALL SENSORS): 3 files, 9 sensors
+   9. STR126 (WITH ALL SENSORS): 2 files, 3 sensors
+   10. STR132 (WITH ALL SENSORS): 2 files, 3 sensors
+
+================================================================================
+🎯 SENSOR DISTRIBUTION
+================================================================================
+
+   Accelerometers (AC): 25
+   Displacement sensors (DI): 36
+   Tilt sensors (TI): 48
+   Temperature probes (TP): 21
+   Total sensors: 130
+
+================================================================================
+💡 MERGE QUALITY INSIGHTS
+================================================================================
+
+   Average duplicate rate: 0.16%
+   Average sensors per structure: 5.9
+   Average files per structure: 2.1
+
+   ✅ Low duplicate rate indicates good data collection overlap
+
+================================================================================
+📝 MERGE PROCESS NOTES
+================================================================================
+
+   Merge Strategy:
+   - All sheets from all Excel files merged into single file per structure
+   - Each sheet represents a different sensor
+   - Duplicates removed based on (timestamp, sensor_id) combination
+   - Long format chosen for optimal anomaly detection
+
+   Column Structure:
+   - timestamp: Datetime of measurement
+   - sensor_id: Unique identifier for each sensor
+   - sensor_type: Type of sensor (accelerometer, displacement, tilt, temperature_probe)
+   - Data columns: p2p, rms, value, temperature, humidity, battery
+
+================================================================================
+END OF MERGE SUMMARY
+================================================================================

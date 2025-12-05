@@ -1,0 +1,275 @@
+================================================================================
+COMBINED RANGE VALIDATION SUMMARY - ALL STRUCTURES
+Generated: 2025-12-05 09:15:49
+================================================================================
+
+================================================================================
+📏 OFFICIAL NORMAL VALUE RANGES
+================================================================================
+
+   Accelerometer (AC): p2p, rms = -1.0 to +1.0 g
+   Displacement Meter (DI): value = 0 to 500 mm
+   Tiltmeter (TI): value = -5° to +5°
+   Thermometer (TP): temperature = -40°C to +125°C
+
+================================================================================
+📊 OVERALL STATISTICS
+================================================================================
+
+   Structures validated: 21
+   Total sensors: 130
+   Total measurements checked: 12,152,185
+   ✅ In range: 10,390,637 (85.50%)
+   ❌ Out of range: 1,761,548 (14.50%)
+
+================================================================================
+📋 PER-STRUCTURE SUMMARY
+================================================================================
+
+STR128 ⭐:
+   Sensors: 7
+   Measurements checked: 308,421
+   ✅ In range: 136,245 (44.18%)
+   ❌ Out of range: 172,176 (55.82%)
+   🚨 Critical sensors: 4
+      DI550, TI551, TI552, TI553
+   Status: ⚠️  Needs investigation
+
+STR122:
+   Sensors: 11
+   Measurements checked: 1,131,092
+   ✅ In range: 915,258 (80.92%)
+   ❌ Out of range: 215,834 (19.08%)
+   🚨 Critical sensors: 4
+      DI531, DI532, DI533, DI534
+   Status: ⚠️  Needs investigation
+
+STR124:
+   Sensors: 9
+   Measurements checked: 463,153
+   ✅ In range: 418,205 (90.30%)
+   ❌ Out of range: 44,948 (9.70%)
+   🚨 Critical sensors: 1
+      DI539
+   Status: ⚠️  Needs investigation
+
+STR126:
+   Sensors: 3
+   Measurements checked: 430,799
+   ✅ In range: 430,797 (100.00%)
+   ❌ Out of range: 2 (0.00%)
+   Status: ✅ Good (minor issues)
+
+STR129:
+   Sensors: 9
+   Measurements checked: 1,060,635
+   ✅ In range: 944,005 (89.00%)
+   ❌ Out of range: 116,630 (11.00%)
+   🚨 Critical sensors: 2
+      DI555, DI556
+   Status: ⚠️  Needs investigation
+
+STR130:
+   Sensors: 3
+   Measurements checked: 415,968
+   ✅ In range: 415,967 (100.00%)
+   ❌ Out of range: 1 (0.00%)
+   Status: ✅ Good (minor issues)
+
+STR132:
+   Sensors: 3
+   Measurements checked: 418,503
+   ✅ In range: 418,495 (100.00%)
+   ❌ Out of range: 8 (0.00%)
+   Status: ✅ Good (minor issues)
+
+STR171:
+   Sensors: 3
+   Measurements checked: 309,621
+   ✅ In range: 309,621 (100.00%)
+   ❌ Out of range: 0 (0.00%)
+   Status: ✅ Excellent
+
+STR172:
+   Sensors: 3
+   Measurements checked: 199,330
+   ✅ In range: 199,330 (100.00%)
+   ❌ Out of range: 0 (0.00%)
+   Status: ✅ Excellent
+
+STR173:
+   Sensors: 3
+   Measurements checked: 458,059
+   ✅ In range: 457,994 (99.99%)
+   ❌ Out of range: 65 (0.01%)
+   Status: ✅ Good (minor issues)
+
+STR175:
+   Sensors: 3
+   Measurements checked: 417,347
+   ✅ In range: 417,345 (100.00%)
+   ❌ Out of range: 2 (0.00%)
+   Status: ✅ Good (minor issues)
+
+STR176:
+   Sensors: 3
+   Measurements checked: 469,573
+   ✅ In range: 469,564 (100.00%)
+   ❌ Out of range: 9 (0.00%)
+   Status: ✅ Good (minor issues)
+
+STR177:
+   Sensors: 3
+   Measurements checked: 423,801
+   ✅ In range: 421,730 (99.51%)
+   ❌ Out of range: 2,071 (0.49%)
+   Status: ✅ Good (minor issues)
+
+STR178:
+   Sensors: 7
+   Measurements checked: 288,933
+   ✅ In range: 237,841 (82.32%)
+   ❌ Out of range: 51,092 (17.68%)
+   🚨 Critical sensors: 2
+      DI606, DI607
+   Status: ⚠️  Needs investigation
+
+STR179:
+   Sensors: 10
+   Measurements checked: 1,040,570
+   ✅ In range: 831,908 (79.95%)
+   ❌ Out of range: 208,662 (20.05%)
+   🚨 Critical sensors: 3
+      DI613, DI614, DI615
+   Status: ⚠️  Needs investigation
+
+STR180:
+   Sensors: 9
+   Measurements checked: 852,800
+   ✅ In range: 723,389 (84.83%)
+   ❌ Out of range: 129,411 (15.17%)
+   🚨 Critical sensors: 3
+      DI621, DI622, DI623
+   Status: ⚠️  Needs investigation
+
+STR181:
+   Sensors: 9
+   Measurements checked: 865,639
+   ✅ In range: 713,617 (82.44%)
+   ❌ Out of range: 152,022 (17.56%)
+   🚨 Critical sensors: 4
+      DI628, DI629, DI630, DI631
+   Status: ⚠️  Needs investigation
+
+STR182:
+   Sensors: 9
+   Measurements checked: 602,924
+   ✅ In range: 484,343 (80.33%)
+   ❌ Out of range: 118,581 (19.67%)
+   🚨 Critical sensors: 4
+      DI636, DI637, DI638, DI639
+   Status: ⚠️  Needs investigation
+
+STR183:
+   Sensors: 9
+   Measurements checked: 691,978
+   ✅ In range: 459,403 (66.39%)
+   ❌ Out of range: 232,575 (33.61%)
+   🚨 Critical sensors: 4
+      DI644, DI645, DI646, DI647
+   Status: ⚠️  Needs investigation
+
+STR184:
+   Sensors: 9
+   Measurements checked: 829,160
+   ✅ In range: 511,830 (61.73%)
+   ❌ Out of range: 317,330 (38.27%)
+   🚨 Critical sensors: 4
+      DI652, DI653, DI654, DI655
+   Status: ⚠️  Needs investigation
+
+STR199:
+   Sensors: 5
+   Measurements checked: 473,879
+   ✅ In range: 473,750 (99.97%)
+   ❌ Out of range: 129 (0.03%)
+   Status: ✅ Good (minor issues)
+
+================================================================================
+🚨 STRUCTURES WITH CRITICAL SENSORS
+================================================================================
+
+These structures have sensors with >10% out-of-range values:
+
+   STR128: 4 critical sensor(s)
+      DI550 (displacement): 100.0% violations
+      TI551 (tilt): 97.2% violations
+      TI552 (tilt): 96.2% violations
+      TI553 (tilt): 96.2% violations
+
+   STR122: 4 critical sensor(s)
+      DI531 (displacement): 88.6% violations
+      DI532 (displacement): 93.4% violations
+      DI533 (displacement): 85.0% violations
+      DI534 (displacement): 20.8% violations
+
+   STR181: 4 critical sensor(s)
+      DI628 (displacement): 99.3% violations
+      DI629 (displacement): 15.2% violations
+      DI630 (displacement): 20.6% violations
+      DI631 (displacement): 17.2% violations
+
+   STR182: 4 critical sensor(s)
+      DI636 (displacement): 22.5% violations
+      DI637 (displacement): 23.1% violations
+      DI638 (displacement): 29.9% violations
+      DI639 (displacement): 100.0% violations
+
+   STR183: 4 critical sensor(s)
+      DI644 (displacement): 18.4% violations
+      DI645 (displacement): 98.1% violations
+      DI646 (displacement): 98.3% violations
+      DI647 (displacement): 100.0% violations
+
+   STR184: 4 critical sensor(s)
+      DI652 (displacement): 81.7% violations
+      DI653 (displacement): 73.0% violations
+      DI654 (displacement): 100.0% violations
+      DI655 (displacement): 97.4% violations
+
+   STR179: 3 critical sensor(s)
+      DI613 (displacement): 16.6% violations
+      DI614 (displacement): 100.0% violations
+      DI615 (displacement): 100.0% violations
+
+   STR180: 3 critical sensor(s)
+      DI621 (displacement): 21.1% violations
+      DI622 (displacement): 96.5% violations
+      DI623 (displacement): 19.5% violations
+
+   STR129: 2 critical sensor(s)
+      DI555 (displacement): 88.1% violations
+      DI556 (displacement): 16.7% violations
+
+   STR178: 2 critical sensor(s)
+      DI606 (displacement): 94.9% violations
+      DI607 (displacement): 35.6% violations
+
+   STR124: 1 critical sensor(s)
+      DI539 (displacement): 100.0% violations
+
+================================================================================
+📝 RECOMMENDATIONS
+================================================================================
+
+   Overall violation rate: 14.50%
+
+   🚨 Data quality requires attention:
+      - Significant violations detected
+      - Investigate sensors with high violation rates
+      - May indicate sensor malfunctions or structural issues
+      - Consider preprocessing to remove/flag violations
+
+================================================================================
+END OF VALIDATION SUMMARY
+================================================================================

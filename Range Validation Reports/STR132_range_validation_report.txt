@@ -1,0 +1,168 @@
+================================================================================
+📊 RANGE VALIDATION REPORT: STR132
+Generated: 2025-12-05 09:11:02
+================================================================================
+
+✓ Loaded 234,618 rows
+
+================================================================================
+📋 STRUCTURE INFORMATION
+================================================================================
+   Total rows: 234,618
+   Date range: 2023-09-01 09:10:00 to 2025-09-02 08:59:59
+   Duration: 731 days
+   Unique sensors: 3
+
+================================================================================
+📏 OFFICIAL NORMAL VALUE RANGES
+================================================================================
+
+   Accelerometer (AC):
+      p2p, rms: -1.0 to +1.0 g
+
+   Displacement Meter (DI):
+      value: 0 to 500 mm
+
+   Tiltmeter (TI):
+      value: -5° to +5°
+
+   Thermometer (TP):
+      temperature: -40°C to +125°C
+
+================================================================================
+🔍 PER-SENSOR RANGE VALIDATION
+================================================================================
+
+================================================================================
+📡 SENSOR: AC397 (accelerometer)
+================================================================================
+
+   📊 Total readings: 91,930
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      P2P (Official range: -1.0 to 1.0 g):
+         Total values: 91,930
+         ✅ In range: 91,927 (100.00%)
+         ❌ Out of range: 3 (0.00%)
+         Actual range: 0.0014 to 2.9627 g
+         ⬆️  Above maximum: 3
+            Highest value: 2.9627 g
+            Deviation: 1.9627 g above limit
+
+         📅 Violation Timeline:
+            First violation: 2025-05-16 00:30:00
+            Last violation: 2025-05-16 09:10:00
+            Duration: 0 days
+
+         ℹ️  LOW: Minor violations (0.0%)
+
+      RMS (Official range: -1.0 to 1.0 g):
+         Total values: 91,930
+         ✅ In range: 91,929 (100.00%)
+         ❌ Out of range: 1 (0.00%)
+         Actual range: 0.0001 to 1.2328 g
+         ⬆️  Above maximum: 1
+            Highest value: 1.2328 g
+            Deviation: 0.2328 g above limit
+
+         📅 Violation Timeline:
+            First violation: 2025-05-16 08:50:00
+            Last violation: 2025-05-16 08:50:00
+            Duration: 0 days
+
+         ℹ️  LOW: Minor violations (0.0%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 183,860
+      Total violations: 4 (0.00%)
+      ℹ️  Minor issues detected
+
+================================================================================
+📡 SENSOR: AC398 (accelerometer)
+================================================================================
+
+   📊 Total readings: 91,955
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      P2P (Official range: -1.0 to 1.0 g):
+         Total values: 91,955
+         ✅ In range: 91,952 (100.00%)
+         ❌ Out of range: 3 (0.00%)
+         Actual range: 0.0003 to 4.8901 g
+         ⬆️  Above maximum: 3
+            Highest value: 4.8901 g
+            Deviation: 3.8901 g above limit
+
+         📅 Violation Timeline:
+            First violation: 2023-12-25 11:50:00
+            Last violation: 2025-05-16 09:10:00
+            Duration: 507 days
+
+         ℹ️  LOW: Minor violations (0.0%)
+
+      RMS (Official range: -1.0 to 1.0 g):
+         Total values: 91,955
+         ✅ In range: 91,954 (100.00%)
+         ❌ Out of range: 1 (0.00%)
+         Actual range: 0.0001 to 1.1670 g
+         ⬆️  Above maximum: 1
+            Highest value: 1.1670 g
+            Deviation: 0.1670 g above limit
+
+         📅 Violation Timeline:
+            First violation: 2025-05-16 09:10:00
+            Last violation: 2025-05-16 09:10:00
+            Duration: 0 days
+
+         ℹ️  LOW: Minor violations (0.0%)
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 183,910
+      Total violations: 4 (0.00%)
+      ℹ️  Minor issues detected
+
+================================================================================
+📡 SENSOR: TP327 (temperature_probe)
+================================================================================
+
+   📊 Total readings: 50,733
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      TEMPERATURE (Official range: -40.0 to 125.0 °C):
+         Total values: 50,733
+         ✅ In range: 50,733 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: -40.0000 to 35.1200 °C
+
+         ✅ EXCELLENT: All values within range!
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 50,733
+      Total violations: 0 (0.00%)
+      ✅ ALL MEASUREMENTS WITHIN OFFICIAL RANGES
+
+================================================================================
+📊 VALIDATION SUMMARY
+================================================================================
+
+   Structure: STR132
+   Total sensors: 3
+   Total measurements checked: 418,503
+   ✅ In range: 418,495 (100.00%)
+   ❌ Out of range: 8 (0.00%)
+
+   ================================================================================
+   ✅ GOOD: Minor violations detected
+   → Review violations but data is usable
+   ================================================================================
+
+================================================================================

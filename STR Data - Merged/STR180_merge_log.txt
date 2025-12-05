@@ -1,0 +1,158 @@
+================================================================================
+🔧 MERGING STRUCTURE: STR180 (WITH ALL SENSORS)
+⏰ Started at: 2025-12-03 19:58:29
+================================================================================
+
+📁 Files to process: 4
+   1. STR180(2023.09.01 to 2024.03.30).xlsx
+   2. STR180(2024.04.01 to 2024.09.30).xlsx
+   3. STR180(2024.10.01 to 2025.03.30).xlsx
+   4. STR180(2025.04.01 to 2025.09.01).xlsx
+
+================================================================================
+📥 LOADING ALL SHEETS FROM ALL FILES
+================================================================================
+
+📄 FILE 1: STR180(2023.09.01 to 2024.03.30).xlsx
+   Found 9 sheets: DI620, DI621, DI622, DI623, TI624, TI625, TI626, TI627, TP376
+      ✓ Sheet 'DI620': 29,695 rows, Type: displacement
+      ✓ Sheet 'DI621': 9,909 rows, Type: displacement
+      ✓ Sheet 'DI622': 28,159 rows, Type: displacement
+      ✓ Sheet 'DI623': 11,160 rows, Type: displacement
+      ✓ Sheet 'TI624': 26,886 rows, Type: tilt
+      ✓ Sheet 'TI625': 27,530 rows, Type: tilt
+      ✓ Sheet 'TI626': 27,272 rows, Type: tilt
+      ✓ Sheet 'TI627': 28,013 rows, Type: tilt
+      ✓ Sheet 'TP376': 29,927 rows, Type: temperature_probe
+
+📄 FILE 2: STR180(2024.04.01 to 2024.09.30).xlsx
+   Found 9 sheets: DI620, DI621, DI622, DI623, TI624, TI625, TI626, TI627, TP376
+      ✓ Sheet 'DI620': 26,238 rows, Type: displacement
+      ✓ Sheet 'DI621': 26,237 rows, Type: displacement
+      ✓ Sheet 'DI622': 26,238 rows, Type: displacement
+      ✓ Sheet 'DI623': 26,238 rows, Type: displacement
+      ✓ Sheet 'TI624': 26,238 rows, Type: tilt
+      ✓ Sheet 'TI625': 26,238 rows, Type: tilt
+      ✓ Sheet 'TI626': 26,237 rows, Type: tilt
+      ✓ Sheet 'TI627': 26,237 rows, Type: tilt
+      ✓ Sheet 'TP376': 24,635 rows, Type: temperature_probe
+
+📄 FILE 3: STR180(2024.10.01 to 2025.03.30).xlsx
+   Found 9 sheets: DI620, DI621, DI622, DI623, TI624, TI625, TI626, TI627, TP376
+      ✓ Sheet 'DI620': 26,187 rows, Type: displacement
+      ✓ Sheet 'DI621': 26,187 rows, Type: displacement
+      ✓ Sheet 'DI622': 11,179 rows, Type: displacement
+      ✓ Sheet 'DI623': 26,187 rows, Type: displacement
+      ✓ Sheet 'TI624': 26,187 rows, Type: tilt
+      ✓ Sheet 'TI625': 26,187 rows, Type: tilt
+      ✓ Sheet 'TI626': 26,187 rows, Type: tilt
+      ✓ Sheet 'TI627': 26,187 rows, Type: tilt
+      ✓ Sheet 'TP376': 6,024 rows, Type: temperature_probe
+
+📄 FILE 4: STR180(2025.04.01 to 2025.09.01).xlsx
+   Found 9 sheets: DI620, DI621, DI622, DI623, TI624, TI625, TI626, TI627, TP376
+      ✓ Sheet 'DI620': 22,134 rows, Type: displacement
+      ✓ Sheet 'DI621': 22,134 rows, Type: displacement
+      ✓ Sheet 'DI622': 22,134 rows, Type: displacement
+      ✓ Sheet 'DI623': 22,133 rows, Type: displacement
+      ✓ Sheet 'TI624': 22,134 rows, Type: tilt
+      ✓ Sheet 'TI625': 22,133 rows, Type: tilt
+      ✓ Sheet 'TI626': 22,133 rows, Type: tilt
+      ✓ Sheet 'TI627': 22,133 rows, Type: tilt
+      ✓ Sheet 'TP376': 22,133 rows, Type: temperature_probe
+
+================================================================================
+🔗 COMBINING ALL SENSOR DATA
+================================================================================
+
+⏳ Combining 36 dataframes...
+   ✓ Combined: 852,800 total rows
+
+================================================================================
+🔍 CHECKING FOR DUPLICATES
+================================================================================
+
+   📊 Duplicate records found: 0
+   ✓ No duplicates found
+
+================================================================================
+📊 SORTING DATA
+================================================================================
+
+   ⏳ Sorting by timestamp and sensor_id...
+   ✓ Data sorted
+
+================================================================================
+✅ VALIDATION & SUMMARY
+================================================================================
+
+   📊 Original total rows: 852,800
+   📊 Duplicates removed: 0
+   📊 Final rows: 852,800
+
+   📅 Overall date range:
+      From: 2023-09-01 09:10:00
+      To:   2025-09-02 08:59:59
+      Duration: 731 days
+
+   🎯 Sensors in merged data: 9
+
+      DI620 (displacement):
+         Rows: 104,254
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      DI621 (displacement):
+         Rows: 84,467
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      DI622 (displacement):
+         Rows: 87,710
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      DI623 (displacement):
+         Rows: 85,718
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      TI624 (tilt):
+         Rows: 101,445
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      TI625 (tilt):
+         Rows: 102,088
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      TI626 (tilt):
+         Rows: 101,829
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      TI627 (tilt):
+         Rows: 102,570
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+      TP376 (temperature_probe):
+         Rows: 82,719
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-31 08:59:59
+
+   🔍 Missing values per column:
+      ✓ No missing values (this is expected for mixed sensor types)
+
+================================================================================
+💾 SAVING MERGED FILE
+================================================================================
+
+   ⏳ Saving to: STR180_merged.xlsx
+   ✅ File saved successfully!
+   📦 File size: 27.01 MB
+
+================================================================================
+📝 SAVING LOG FILE
+================================================================================

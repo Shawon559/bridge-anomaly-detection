@@ -1,0 +1,171 @@
+================================================================================
+🔧 MERGING STRUCTURE: STR179 (WITH ALL SENSORS)
+⏰ Started at: 2025-12-03 19:57:21
+================================================================================
+
+📁 Files to process: 4
+   1. (2023-09-01)-(2024-03-01).xlsx
+   2. (2024-03-01)-(2024-09-01).xlsx
+   3. (2024-09-01)-(2025-03-01).xlsx
+   4. (2025-03-01)-(2025-09-01).xlsx
+
+================================================================================
+📥 LOADING ALL SHEETS FROM ALL FILES
+================================================================================
+
+📄 FILE 1: (2023-09-01)-(2024-03-01).xlsx
+   Found 10 sheets: AC792, DI612, DI613, DI614, DI615, TI616, TI617, TI618, TI619, TP375
+      ✓ Sheet 'AC792': 22,669 rows, Type: accelerometer
+      ✓ Sheet 'DI612': 25,758 rows, Type: displacement
+      ✓ Sheet 'DI613': 25,539 rows, Type: displacement
+      ✓ Sheet 'DI614': 25,758 rows, Type: displacement
+      ✓ Sheet 'DI615': 25,758 rows, Type: displacement
+      ✓ Sheet 'TI616': 25,758 rows, Type: tilt
+      ✓ Sheet 'TI617': 25,758 rows, Type: tilt
+      ✓ Sheet 'TI618': 22,345 rows, Type: tilt
+      ✓ Sheet 'TI619': 25,758 rows, Type: tilt
+      ✓ Sheet 'TP375': 25,758 rows, Type: temperature_probe
+
+📄 FILE 2: (2024-03-01)-(2024-09-01).xlsx
+   Found 10 sheets: AC792, DI612, DI613, DI614, DI615, TI616, TI617, TI618, TI619, TP375
+      ✓ Sheet 'AC792': 23,531 rows, Type: accelerometer
+      ✓ Sheet 'DI612': 26,525 rows, Type: displacement
+      ✓ Sheet 'DI613': 26,524 rows, Type: displacement
+      ✓ Sheet 'DI614': 26,526 rows, Type: displacement
+      ✓ Sheet 'DI615': 26,524 rows, Type: displacement
+      ✓ Sheet 'TI616': 26,526 rows, Type: tilt
+      ✓ Sheet 'TI617': 26,524 rows, Type: tilt
+      ✓ Sheet 'TI618': 26,525 rows, Type: tilt
+      ✓ Sheet 'TI619': 26,524 rows, Type: tilt
+      ✓ Sheet 'TP375': 26,526 rows, Type: temperature_probe
+
+📄 FILE 3: (2024-09-01)-(2025-03-01).xlsx
+   Found 10 sheets: AC792, DI612, DI613, DI614, DI615, TI616, TI617, TI618, TI619, TP375
+      ✓ Sheet 'AC792': 23,156 rows, Type: accelerometer
+      ✓ Sheet 'DI612': 23,470 rows, Type: displacement
+      ✓ Sheet 'DI613': 20,259 rows, Type: displacement
+      ✓ Sheet 'DI614': 13,590 rows, Type: displacement
+      ✓ Sheet 'DI615': 12,302 rows, Type: displacement
+      ✓ Sheet 'TI616': 20,242 rows, Type: tilt
+      ✓ Sheet 'TI617': 20,182 rows, Type: tilt
+      ✓ Sheet 'TI618': 17,477 rows, Type: tilt
+      ✓ Sheet 'TI619': 17,177 rows, Type: tilt
+      ✓ Sheet 'TP375': 8,507 rows, Type: temperature_probe
+
+📄 FILE 4: (2025-03-01)-(2025-09-01).xlsx
+   Found 10 sheets: AC792, DI612, DI613, DI614, DI615, TI616, TI617, TI618, TI619, TP375
+      ✓ Sheet 'AC792': 23,482 rows, Type: accelerometer
+      ✓ Sheet 'DI612': 26,597 rows, Type: displacement
+      ✓ Sheet 'DI613': 26,597 rows, Type: displacement
+      ✓ Sheet 'DI614': 26,598 rows, Type: displacement
+      ✓ Sheet 'DI615': 26,597 rows, Type: displacement
+      ✓ Sheet 'TI616': 26,597 rows, Type: tilt
+      ✓ Sheet 'TI617': 26,598 rows, Type: tilt
+      ✓ Sheet 'TI618': 26,598 rows, Type: tilt
+      ✓ Sheet 'TI619': 26,597 rows, Type: tilt
+      ✓ Sheet 'TP375': 26,598 rows, Type: temperature_probe
+
+================================================================================
+🔗 COMBINING ALL SENSOR DATA
+================================================================================
+
+⏳ Combining 40 dataframes...
+   ✓ Combined: 952,335 total rows
+
+================================================================================
+🔍 CHECKING FOR DUPLICATES
+================================================================================
+
+   📊 Duplicate records found: 4,232
+   🧹 Removing duplicates...
+   ✓ Removed 4,232 duplicate rows
+
+================================================================================
+📊 SORTING DATA
+================================================================================
+
+   ⏳ Sorting by timestamp and sensor_id...
+   ✓ Data sorted
+
+================================================================================
+✅ VALIDATION & SUMMARY
+================================================================================
+
+   📊 Original total rows: 952,335
+   📊 Duplicates removed: 4,232
+   📊 Final rows: 948,103
+
+   📅 Overall date range:
+      From: 2023-09-01 09:10:00
+      To:   2025-09-02 08:59:59
+      Duration: 731 days
+
+   🎯 Sensors in merged data: 10
+
+      AC792 (accelerometer):
+         Rows: 92,838
+         Columns: p2p, rms, temperature, humidity
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      DI612 (displacement):
+         Rows: 102,350
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      DI613 (displacement):
+         Rows: 98,919
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      DI614 (displacement):
+         Rows: 92,472
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      DI615 (displacement):
+         Rows: 91,181
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      TI616 (tilt):
+         Rows: 99,123
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      TI617 (tilt):
+         Rows: 99,062
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      TI618 (tilt):
+         Rows: 92,945
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      TI619 (tilt):
+         Rows: 96,056
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+      TP375 (temperature_probe):
+         Rows: 87,389
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-03-02 08:59:59
+
+   🔍 Missing values per column:
+      battery: 92,467 (9.8%)
+      p2p: 855,636 (90.2%)
+      rms: 855,636 (90.2%)
+      value: 92,467 (9.8%)
+
+================================================================================
+💾 SAVING MERGED FILE
+================================================================================
+
+   ⏳ Saving to: STR179_merged.xlsx
+   ✅ File saved successfully!
+   📦 File size: 34.59 MB
+
+================================================================================
+📝 SAVING LOG FILE
+================================================================================

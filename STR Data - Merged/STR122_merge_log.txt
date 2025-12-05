@@ -1,0 +1,180 @@
+================================================================================
+🔧 MERGING STRUCTURE: STR122 (WITH ALL SENSORS)
+⏰ Started at: 2025-12-03 19:50:55
+================================================================================
+
+📁 Files to process: 4
+   1. (2023-09-01)-(2024-04-01).xlsx
+   2. (2024-04-01)-(2024-08-01).xlsx
+   3. (2024-08-01)-(2025-04-01).xlsx
+   4. STR122-(2025-04-01)-(2025-08-01).xlsx
+
+================================================================================
+📥 LOADING ALL SHEETS FROM ALL FILES
+================================================================================
+
+📄 FILE 1: (2023-09-01)-(2024-04-01).xlsx
+   Found 11 sheets: AC383, AC384, DI531, DI532, DI533, DI534, TI535, TI536, TI537, TI538, TP318
+      ✓ Sheet 'AC383': 26,612 rows, Type: accelerometer
+      ✓ Sheet 'AC384': 26,689 rows, Type: accelerometer
+      ✓ Sheet 'DI531': 28,723 rows, Type: displacement
+      ✓ Sheet 'DI532': 27,103 rows, Type: displacement
+      ✓ Sheet 'DI533': 29,325 rows, Type: displacement
+      ✓ Sheet 'DI534': 30,182 rows, Type: displacement
+      ✓ Sheet 'TI535': 29,422 rows, Type: tilt
+      ✓ Sheet 'TI536': 30,148 rows, Type: tilt
+      ✓ Sheet 'TI537': 30,182 rows, Type: tilt
+      ✓ Sheet 'TI538': 30,182 rows, Type: tilt
+      ✓ Sheet 'TP318': 26,228 rows, Type: temperature_probe
+
+📄 FILE 2: (2024-04-01)-(2024-08-01).xlsx
+   Found 11 sheets: AC383, AC384, DI531, DI532, DI533, DI534, TI535, TI536, TI537, TI538, TP318
+      ✓ Sheet 'AC383': 15,492 rows, Type: accelerometer
+      ✓ Sheet 'AC384': 15,613 rows, Type: accelerometer
+      ✓ Sheet 'DI531': 17,671 rows, Type: displacement
+      ✓ Sheet 'DI532': 17,671 rows, Type: displacement
+      ✓ Sheet 'DI533': 8,361 rows, Type: displacement
+      ✓ Sheet 'DI534': 17,671 rows, Type: displacement
+      ✓ Sheet 'TI535': 17,671 rows, Type: tilt
+      ✓ Sheet 'TI536': 17,671 rows, Type: tilt
+      ✓ Sheet 'TI537': 17,671 rows, Type: tilt
+      ✓ Sheet 'TI538': 17,671 rows, Type: tilt
+      ✓ Sheet 'TP318': 17,671 rows, Type: temperature_probe
+
+📄 FILE 3: (2024-08-01)-(2025-04-01).xlsx
+   Found 11 sheets: AC383, AC384, DI531, DI532, DI533, DI534, TI535, TI536, TI537, TI538, TP318
+      ✓ Sheet 'AC383': 30,163 rows, Type: accelerometer
+      ✓ Sheet 'AC384': 30,124 rows, Type: accelerometer
+      ✓ Sheet 'DI531': 26,954 rows, Type: displacement
+      ✓ Sheet 'DI532': 34,111 rows, Type: displacement
+      ⚠️  Sheet 'DI533': EMPTY - skipping
+      ✓ Sheet 'DI534': 34,112 rows, Type: displacement
+      ✓ Sheet 'TI535': 30,291 rows, Type: tilt
+      ✓ Sheet 'TI536': 33,148 rows, Type: tilt
+      ✓ Sheet 'TI537': 34,113 rows, Type: tilt
+      ✓ Sheet 'TI538': 34,113 rows, Type: tilt
+      ✓ Sheet 'TP318': 24,504 rows, Type: temperature_probe
+
+📄 FILE 4: STR122-(2025-04-01)-(2025-08-01).xlsx
+   Found 11 sheets: AC383, AC384, DI531, DI532, DI533, DI534, TI535, TI536, TI537, TI538, TP318
+      ✓ Sheet 'AC383': 15,500 rows, Type: accelerometer
+      ✓ Sheet 'AC384': 15,654 rows, Type: accelerometer
+      ⚠️  Sheet 'DI531': EMPTY - skipping
+      ✓ Sheet 'DI532': 17,394 rows, Type: displacement
+      ⚠️  Sheet 'DI533': EMPTY - skipping
+      ✓ Sheet 'DI534': 17,394 rows, Type: displacement
+      ✓ Sheet 'TI535': 17,394 rows, Type: tilt
+      ✓ Sheet 'TI536': 17,394 rows, Type: tilt
+      ✓ Sheet 'TI537': 17,394 rows, Type: tilt
+      ✓ Sheet 'TI538': 17,394 rows, Type: tilt
+      ✓ Sheet 'TP318': 17,394 rows, Type: temperature_probe
+
+================================================================================
+🔗 COMBINING ALL SENSOR DATA
+================================================================================
+
+⏳ Combining 41 dataframes...
+   ✓ Combined: 960,175 total rows
+
+================================================================================
+🔍 CHECKING FOR DUPLICATES
+================================================================================
+
+   📊 Duplicate records found: 4,181
+   🧹 Removing duplicates...
+   ✓ Removed 4,181 duplicate rows
+
+================================================================================
+📊 SORTING DATA
+================================================================================
+
+   ⏳ Sorting by timestamp and sensor_id...
+   ✓ Data sorted
+
+================================================================================
+✅ VALIDATION & SUMMARY
+================================================================================
+
+   📊 Original total rows: 960,175
+   📊 Duplicates removed: 4,181
+   📊 Final rows: 955,994
+
+   📅 Overall date range:
+      From: 2023-09-01 09:10:00
+      To:   2025-08-02 08:59:59
+      Duration: 700 days
+
+   🎯 Sensors in merged data: 11
+
+      AC383 (accelerometer):
+         Rows: 87,767
+         Columns: p2p, rms, temperature, humidity
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      AC384 (accelerometer):
+         Rows: 88,080
+         Columns: p2p, rms, temperature, humidity
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      DI531 (displacement):
+         Rows: 73,348
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      DI532 (displacement):
+         Rows: 96,279
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      DI533 (displacement):
+         Rows: 37,686
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      DI534 (displacement):
+         Rows: 99,359
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      TI535 (tilt):
+         Rows: 94,778
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      TI536 (tilt):
+         Rows: 98,361
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      TI537 (tilt):
+         Rows: 99,360
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      TI538 (tilt):
+         Rows: 99,360
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+      TP318 (temperature_probe):
+         Rows: 85,797
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-02 08:59:59
+
+   🔍 Missing values per column:
+      battery: 175,098 (18.3%)
+      p2p: 780,896 (81.7%)
+      rms: 780,896 (81.7%)
+      value: 175,098 (18.3%)
+
+================================================================================
+💾 SAVING MERGED FILE
+================================================================================
+
+   ⏳ Saving to: STR122_merged.xlsx
+   ✅ File saved successfully!
+   📦 File size: 37.19 MB
+
+================================================================================
+📝 SAVING LOG FILE
+================================================================================

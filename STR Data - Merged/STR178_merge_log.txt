@@ -1,0 +1,107 @@
+================================================================================
+🔧 MERGING STRUCTURE: STR178 (WITH ALL SENSORS)
+⏰ Started at: 2025-12-03 19:57:03
+================================================================================
+
+📁 Files to process: 1
+   1. STR178(2024.09.01 to 2025.09.01).xlsx
+
+================================================================================
+📥 LOADING ALL SHEETS FROM ALL FILES
+================================================================================
+
+📄 FILE 1: STR178(2024.09.01 to 2025.09.01).xlsx
+   Found 7 sheets: DI606, DI607, TI608, TI609, TI610, TI611, TP374
+      ✓ Sheet 'DI606': 38,770 rows, Type: displacement
+      ✓ Sheet 'DI607': 38,018 rows, Type: displacement
+      ✓ Sheet 'TI608': 26,125 rows, Type: tilt
+      ✓ Sheet 'TI609': 45,987 rows, Type: tilt
+      ✓ Sheet 'TI610': 50,686 rows, Type: tilt
+      ✓ Sheet 'TI611': 51,361 rows, Type: tilt
+      ✓ Sheet 'TP374': 37,986 rows, Type: temperature_probe
+
+================================================================================
+🔗 COMBINING ALL SENSOR DATA
+================================================================================
+
+⏳ Combining 7 dataframes...
+   ✓ Combined: 288,933 total rows
+
+================================================================================
+🔍 CHECKING FOR DUPLICATES
+================================================================================
+
+   📊 Duplicate records found: 0
+   ✓ No duplicates found
+
+================================================================================
+📊 SORTING DATA
+================================================================================
+
+   ⏳ Sorting by timestamp and sensor_id...
+   ✓ Data sorted
+
+================================================================================
+✅ VALIDATION & SUMMARY
+================================================================================
+
+   📊 Original total rows: 288,933
+   📊 Duplicates removed: 0
+   📊 Final rows: 288,933
+
+   📅 Overall date range:
+      From: 2024-10-01 09:10:00
+      To:   2025-09-23 16:20:00
+      Duration: 357 days
+
+   🎯 Sensors in merged data: 7
+
+      DI606 (displacement):
+         Rows: 38,770
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+
+      DI607 (displacement):
+         Rows: 38,018
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+
+      TI608 (tilt):
+         Rows: 26,125
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-04-02 03:00:00
+
+      TI609 (tilt):
+         Rows: 45,987
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+
+      TI610 (tilt):
+         Rows: 50,686
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+
+      TI611 (tilt):
+         Rows: 51,361
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+
+      TP374 (temperature_probe):
+         Rows: 37,986
+         Columns: value, temperature, humidity, battery
+         Date range: 2024-10-01 09:10:00 to 2025-09-23 16:20:00
+
+   🔍 Missing values per column:
+      ✓ No missing values (this is expected for mixed sensor types)
+
+================================================================================
+💾 SAVING MERGED FILE
+================================================================================
+
+   ⏳ Saving to: STR178_merged.xlsx
+   ✅ File saved successfully!
+   📦 File size: 9.09 MB
+
+================================================================================
+📝 SAVING LOG FILE
+================================================================================

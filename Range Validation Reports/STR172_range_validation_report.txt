@@ -1,0 +1,136 @@
+================================================================================
+📊 RANGE VALIDATION REPORT: STR172
+Generated: 2025-12-05 09:11:21
+================================================================================
+
+✓ Loaded 111,120 rows
+
+================================================================================
+📋 STRUCTURE INFORMATION
+================================================================================
+   Total rows: 111,120
+   Date range: 2023-09-01 09:10:00 to 2025-02-17 13:30:00
+   Duration: 535 days
+   Unique sensors: 3
+
+================================================================================
+📏 OFFICIAL NORMAL VALUE RANGES
+================================================================================
+
+   Accelerometer (AC):
+      p2p, rms: -1.0 to +1.0 g
+
+   Displacement Meter (DI):
+      value: 0 to 500 mm
+
+   Tiltmeter (TI):
+      value: -5° to +5°
+
+   Thermometer (TP):
+      temperature: -40°C to +125°C
+
+================================================================================
+🔍 PER-SENSOR RANGE VALIDATION
+================================================================================
+
+================================================================================
+📡 SENSOR: AC475 (accelerometer)
+================================================================================
+
+   📊 Total readings: 44,123
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      P2P (Official range: -1.0 to 1.0 g):
+         Total values: 44,123
+         ✅ In range: 44,123 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: 0.0011 to 0.9785 g
+
+         ✅ EXCELLENT: All values within range!
+
+      RMS (Official range: -1.0 to 1.0 g):
+         Total values: 44,123
+         ✅ In range: 44,123 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: 0.0001 to 0.0811 g
+
+         ✅ EXCELLENT: All values within range!
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 88,246
+      Total violations: 0 (0.00%)
+      ✅ ALL MEASUREMENTS WITHIN OFFICIAL RANGES
+
+================================================================================
+📡 SENSOR: AC476 (accelerometer)
+================================================================================
+
+   📊 Total readings: 44,087
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      P2P (Official range: -1.0 to 1.0 g):
+         Total values: 44,087
+         ✅ In range: 44,087 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: 0.0019 to 0.9361 g
+
+         ✅ EXCELLENT: All values within range!
+
+      RMS (Official range: -1.0 to 1.0 g):
+         Total values: 44,087
+         ✅ In range: 44,087 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: 0.0002 to 0.0988 g
+
+         ✅ EXCELLENT: All values within range!
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 88,174
+      Total violations: 0 (0.00%)
+      ✅ ALL MEASUREMENTS WITHIN OFFICIAL RANGES
+
+================================================================================
+📡 SENSOR: TP368 (temperature_probe)
+================================================================================
+
+   📊 Total readings: 22,910
+
+   🔍 RANGE VALIDATION RESULTS:
+
+      TEMPERATURE (Official range: -40.0 to 125.0 °C):
+         Total values: 22,910
+         ✅ In range: 22,910 (100.00%)
+         ❌ Out of range: 0 (0.00%)
+         Actual range: -40.0000 to 106.6400 °C
+
+         ✅ EXCELLENT: All values within range!
+
+   ================================================================================
+   📊 SENSOR OVERALL STATUS:
+   ================================================================================
+      Total measurements checked: 22,910
+      Total violations: 0 (0.00%)
+      ✅ ALL MEASUREMENTS WITHIN OFFICIAL RANGES
+
+================================================================================
+📊 VALIDATION SUMMARY
+================================================================================
+
+   Structure: STR172
+   Total sensors: 3
+   Total measurements checked: 199,330
+   ✅ In range: 199,330 (100.00%)
+   ❌ Out of range: 0 (0.00%)
+
+   ================================================================================
+   ✅ EXCELLENT: ALL DATA WITHIN OFFICIAL RANGES
+   → Data quality is excellent for anomaly detection
+   ================================================================================
+
+================================================================================

@@ -1,0 +1,161 @@
+================================================================================
+🔧 MERGING STRUCTURE: STR129 (WITH ALL SENSORS)
+⏰ Started at: 2025-12-03 19:53:38
+================================================================================
+
+📁 Files to process: 4
+   1. STR129(2023-09-01 to 2024-03-31).xlsx
+   2. STR129(2024-04-01 to 2024-10-31).xlsx
+   3. STR129(2024-11-01 to 2025-03-31).xlsx
+   4. STR129(2025-04-01 to 2025-09-01).xlsx
+
+================================================================================
+📥 LOADING ALL SHEETS FROM ALL FILES
+================================================================================
+
+📄 FILE 1: STR129(2023-09-01 to 2024-03-31).xlsx
+   Found 9 sheets: AC393, AC394, DI555, DI556, TI557, TI558, TI559, TI560, TP325
+      ✓ Sheet 'AC393': 26,488 rows, Type: accelerometer
+      ✓ Sheet 'AC394': 26,568 rows, Type: accelerometer
+      ✓ Sheet 'DI555': 27,313 rows, Type: displacement
+      ✓ Sheet 'DI556': 28,216 rows, Type: displacement
+      ✓ Sheet 'TI557': 21,070 rows, Type: tilt
+      ✓ Sheet 'TI558': 26,980 rows, Type: tilt
+      ✓ Sheet 'TI559': 26,911 rows, Type: tilt
+      ✓ Sheet 'TI560': 24,743 rows, Type: tilt
+      ✓ Sheet 'TP325': 27,605 rows, Type: temperature_probe
+
+📄 FILE 2: STR129(2024-04-01 to 2024-10-31).xlsx
+   Found 9 sheets: AC393, AC394, DI555, DI556, TI557, TI558, TI559, TI560, TP325
+      ✓ Sheet 'AC393': 27,118 rows, Type: accelerometer
+      ✓ Sheet 'AC394': 27,099 rows, Type: accelerometer
+      ✓ Sheet 'DI555': 30,595 rows, Type: displacement
+      ✓ Sheet 'DI556': 30,702 rows, Type: displacement
+      ✓ Sheet 'TI557': 30,702 rows, Type: tilt
+      ✓ Sheet 'TI558': 30,701 rows, Type: tilt
+      ✓ Sheet 'TI559': 30,701 rows, Type: tilt
+      ✓ Sheet 'TI560': 30,701 rows, Type: tilt
+      ✓ Sheet 'TP325': 30,702 rows, Type: temperature_probe
+
+📄 FILE 3: STR129(2024-11-01 to 2025-03-31).xlsx
+   Found 9 sheets: AC393, AC394, DI555, DI556, TI557, TI558, TI559, TI560, TP325
+      ✓ Sheet 'AC393': 19,137 rows, Type: accelerometer
+      ✓ Sheet 'AC394': 19,097 rows, Type: accelerometer
+      ✓ Sheet 'DI555': 21,715 rows, Type: displacement
+      ✓ Sheet 'DI556': 21,723 rows, Type: displacement
+      ✓ Sheet 'TI557': 21,723 rows, Type: tilt
+      ✓ Sheet 'TI558': 20,116 rows, Type: tilt
+      ✓ Sheet 'TI559': 10,334 rows, Type: tilt
+      ✓ Sheet 'TI560': 21,723 rows, Type: tilt
+      ✓ Sheet 'TP325': 21,723 rows, Type: temperature_probe
+
+📄 FILE 4: STR129(2025-04-01 to 2025-09-01).xlsx
+   Found 9 sheets: AC393, AC394, DI555, DI556, TI557, TI558, TI559, TI560, TP325
+      ✓ Sheet 'AC393': 19,483 rows, Type: accelerometer
+      ✓ Sheet 'AC394': 19,534 rows, Type: accelerometer
+      ✓ Sheet 'DI555': 22,089 rows, Type: displacement
+      ✓ Sheet 'DI556': 22,133 rows, Type: displacement
+      ✓ Sheet 'TI557': 22,133 rows, Type: tilt
+      ✓ Sheet 'TI558': 22,133 rows, Type: tilt
+      ✓ Sheet 'TI559': 22,134 rows, Type: tilt
+      ✓ Sheet 'TI560': 22,133 rows, Type: tilt
+      ✓ Sheet 'TP325': 22,133 rows, Type: temperature_probe
+
+================================================================================
+🔗 COMBINING ALL SENSOR DATA
+================================================================================
+
+⏳ Combining 36 dataframes...
+   ✓ Combined: 876,111 total rows
+
+================================================================================
+🔍 CHECKING FOR DUPLICATES
+================================================================================
+
+   📊 Duplicate records found: 0
+   ✓ No duplicates found
+
+================================================================================
+📊 SORTING DATA
+================================================================================
+
+   ⏳ Sorting by timestamp and sensor_id...
+   ✓ Data sorted
+
+================================================================================
+✅ VALIDATION & SUMMARY
+================================================================================
+
+   📊 Original total rows: 876,111
+   📊 Duplicates removed: 0
+   📊 Final rows: 876,111
+
+   📅 Overall date range:
+      From: 2023-09-01 09:10:00
+      To:   2025-09-02 08:59:59
+      Duration: 731 days
+
+   🎯 Sensors in merged data: 9
+
+      AC393 (accelerometer):
+         Rows: 92,226
+         Columns: p2p, rms, temperature, humidity
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      AC394 (accelerometer):
+         Rows: 92,298
+         Columns: p2p, rms, temperature, humidity
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      DI555 (displacement):
+         Rows: 101,712
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-05 15:00:00 to 2024-04-01 08:59:59
+
+      DI556 (displacement):
+         Rows: 102,774
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      TI557 (tilt):
+         Rows: 95,628
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      TI558 (tilt):
+         Rows: 99,930
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      TI559 (tilt):
+         Rows: 90,080
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      TI560 (tilt):
+         Rows: 99,300
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+      TP325 (temperature_probe):
+         Rows: 102,163
+         Columns: value, temperature, humidity, battery
+         Date range: 2023-09-01 09:10:00 to 2024-04-01 08:59:59
+
+   🔍 Missing values per column:
+      battery: 184,524 (21.1%)
+      p2p: 691,587 (78.9%)
+      rms: 691,587 (78.9%)
+      value: 184,524 (21.1%)
+
+================================================================================
+💾 SAVING MERGED FILE
+================================================================================
+
+   ⏳ Saving to: STR129_merged.xlsx
+   ✅ File saved successfully!
+   📦 File size: 34.55 MB
+
+================================================================================
+📝 SAVING LOG FILE
+================================================================================
