@@ -4,9 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
 build/
 develop-eggs/
 dist/
@@ -23,26 +20,35 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Virtual Environment
+venv/
+ENV/
+env/
 
-# IDEs
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
-Thumbs.db
 
-# Large data files (optional - keep only if files are small enough for GitHub)
-# Uncomment if Excel files are too large (>100MB)
-# *.xlsx
-# *.csv
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (too large for git)
+*.xlsx
+*.xls
+*.csv
+
+# Logs
+*.log
+
+# Output files
+*_results_*.csv
+*_merge_log.txt
+*_preprocessing_summary.txt
 
 # Temporary files
 *.tmp
-*.log
-nul
+*.bak
